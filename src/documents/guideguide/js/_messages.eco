@@ -86,6 +86,87 @@ class Messages
 
       'help.importExport': 'GuideGuide imports and exports its data via'
 
+    'es_es':
+      'ui.grid': "Retícula"
+      'ui.custom': "Personalizada"
+      'ui.sets': "Sets"
+      'ui.updates': "Actualizaciones"
+      'ui.debug': "Debug"
+      'ui.btnMakeGrid': "Crear retícula"
+      'up.btnSaveSet': "Guardar set"
+      'ui.btnSaveSettings': "Guardar ajustes"
+      'ui.btnImport': "Importar"
+      'ui.btnExport': "Exportar"
+      'ui.btnOk': "Ok"
+      'ui.btnDonate': 'Donar'
+      'ui.btnCheckForUpdates': "Buscar actualizaciones"
+      'btnShowLogs': "Mostrar logs"
+      'ui.titleHorizontalPosition': "Posición horizontal"
+      'ui.titleVerticalPosition': "Posición vertical"
+      'ui.titleHorizontalRemainder': "Resto horizontal"
+      'ui.titleVerticalRemainder': "Resto vertical"
+      'ui.titleReportAnonymousData': "Enviar datos anónimos"
+      'ui.settingHorizontalFirst': 'Izquierda'
+      'ui.settingHorizontalCenter': 'Centro'
+      'ui.settingHorizontalLast': 'Derecha'
+      'ui.settingVerticalFirst': 'Arriba'
+      'ui.settingVerticalCenter': 'Centro'
+      'ui.settingVerticalLast': 'Abajo'
+      'ui.yes': 'Si'
+      'ui.no': 'No'
+      'ui.niceNo': 'No, gracias'
+      'ui.openInBrowser': "Abrir en navegador"
+
+      'gap.unrecognized': "Hueco no reconocido"
+      'gap.noFillWildcards': "Los comodines no pueden ser rellenos"
+      'ggn.noGrids': "Esta cadena no contiene ninguna retícula"
+      'ggn.fillInVariable': "Las variables no pueden contener un relleno"
+      'ggn.noWildcardsInVariableFills': "Una variable usada como relleno no puede contener un comodín"
+      'ggn.undefinedVariable': "Variable no definida"
+      'ggn.oneFillPerGrid': "Una retícula sólo puede contener un relleno"
+      'ggn.moreThanOneHundredPercent': "Una retícula no puede contener más del 100%"
+      'ggn.stringFromExistingGuides': "Cadena generada a partir de las guías existentes"
+
+      'alertTitle.welcome': "Bienvenido a GuideGuide"
+      'alertMessage.welcome': "Este es el comienzo de algo especial. Para ayudar a que GuideGuide sea aún más increíble, ¿permitirías que GuideGuide envíe datos anónimos sobre su uso?"
+
+      'alertTitle.upToDate': "Estás al día"
+      'alertMessage.upToDate': "Ya tienes la última versión de GuideGuide."
+
+      'alertTitle.updateError': "Error buscando actualizaciones"
+      'alertMessage.updateError': "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones en este momento. Por favor, inténtalo de nuevo más adelante."
+
+      'alertTitle.importSuccess': "Sets importados"
+      'alertMessage.importSuccess': "Tus sets se han importado correctamente."
+
+      'alertTitle.importGistError': "Error de Importación"
+      'alertMessage.importGistError': "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este momento. Por favor, inténtalo de nuevo más adelante."
+
+      'alertTitle.importGistNoSets': "Error de Importación"
+      'alertMessage.importGistNoSets': "GuideGuide no ha sido capaz de encontrar sets.json en este Gist."
+
+      'alertTitle.importNotGist': "Error de Importación"
+      'alertMessage.importNotGist': "El texto de entrada no contiene una url de GitHub Gist."
+
+      'alertTitle.exportSuccess': "Sets exportados"
+      'alertMessage.exportSuccess': "Tus sets han sido exportados a un GitHub Gist secreto."
+
+      'alertTitle.exportError': "Imposible exportar"
+      'alertMessage.exportError': "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este momento. Por favor, inténtalo de nuevo más adelante."
+
+      'alertTitle.donate': "¿Te gustaría donar?"
+      'alertMessage.donate': "¡Vaya, ya has usado GuideGuide 30 veces! Parece que le estás sacando bastante partido a GuideGuide, ¿te interesaría hacer una donación para contribuir a su desarrollo?"
+
+      'help.position': "Determina dónde coloda GuideGuide una retícula cuando es más pequeña que el área disponible."
+
+      'help.remainder': "En modo pixel, GuideGuide redondea hacia abajo los anchos con píxeles decimales y usa este ajuste para determinar qué columnas o filas reciben los pixels sobrantes."
+
+      'help.importDesc': "Importa sets pegando una url de GitHub Gist en el campo de texto de abajo."
+
+      'help.gistExport': 'Estos son los datos de un set de guías exportado por el plugin GuideGuide. Para importarlos, haz click en el botón "Importar" en los ajustes de GuideGuide y pega la url de este Gist, o el contenido del fichero `sets.json` en el campo de texto.'
+
+      'help.importExport': 'GuideGuide importa y exporta sus datos mediante'
+
   constructor: (i18n) ->
     @populate "en_us"
 
